@@ -2,8 +2,11 @@ package main;
 
 public class SFLOAT2Double {
 
-    public static void main(String []args) {
-        System.out.println(parseSFLOATtoDouble(0xB30F));
+    public static void main(String []args)
+    {
+        System.out.println(parseSFLOATtoDouble(0xB31A));
+        System.out.println(parseSFLOATtoDouble(0xA1A6));
+        System.out.println(parseSFLOATtoDouble(0xB174));
     }
 
     public static short getExponent(int value)
